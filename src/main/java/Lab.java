@@ -30,7 +30,6 @@ public class Lab {
      * @return the size of set. (number of values)
      */
     public int getSize(Set<Integer> set){
-        
         return set.size();
     }
 
@@ -42,8 +41,7 @@ public class Lab {
      */
     public void addUniqueItem(Set<Integer> set, int item){
         
-        set.add(item);
-        
+        set.add(item);   
     }
 
     /**
@@ -55,6 +53,5 @@ public class Lab {
     public void removeItem(Set<Integer> set, int item){
         
         set.remove(item);
-
     }
 }
